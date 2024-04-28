@@ -1,0 +1,50 @@
+/* header */
+@media (max-width:1025px) {
+
+    /* header */
+    .main_header {
+        padding: 16px 45px;
+
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    /* section1 */
+    .section1 {
+        height: 560px;
+    }
+
+    /* section2 */
+    .section2 {
+        padding: 96px 45px;
+    }
+
+
+
+}
+
+@media (max-width:1371px) {
+
+    /* section2 */
+    .cards {
+        overflow-x: scroll;
+
+    }
+
+    .div_card {
+        flex: 1 0 300px;
+    }
+}
+/* footer */
+@media (max-width:1077px){
+  .header_footer{
+    padding: 48px 98px;
+  }  
+}
+
