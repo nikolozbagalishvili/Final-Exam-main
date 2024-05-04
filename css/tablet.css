@@ -1,0 +1,33 @@
+/* header */
+@media (max-width:745px) {
+
+    .main_header {
+        padding: 16px 32px;
+    }
+
+    /* section1 */
+    .section1 {
+        height: 480px;
+    }
+
+    /* section2 */
+    .section2 {
+        padding: 48px 32px;
+    }
+}
+
+/* footer */
+@media(max-width:871px) {
+    .header_footer {
+        padding: 48px 32px;
+    }
+}
+
+@media(max-width:805) {
+    .header_footer, .first.footer {
+     flex-basis: content;
+     flex: 1 1 100px;
+    }
+
+
+}
